@@ -4,4 +4,9 @@ Marco Bootcamp deliverable 2
 
 Collection and environment
 
-Correct Collection is QAChallenge.postman_collection
+Pre-requisites
+
+Newman
+IDE (Visual Studio)
+
+Command: npm run api-tests
