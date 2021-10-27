@@ -4,8 +4,12 @@
   "description": "QA Bootcamp deliverable 2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-tests": "newman run QAChallenge.postman_collection.json -e ToDoist.postman_environment.json"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.3.0"
+  }
 }
