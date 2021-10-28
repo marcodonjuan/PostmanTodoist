@@ -669,8 +669,8 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Verify error message - Task Not Found\", function () { ",
-									"    pm.expect(pm.response.text()).to.include(\"Task not found\"); ",
+									"pm.test(\"Verify error message - Task id is invalid\", function () { ",
+									"    pm.expect(pm.response.text()).to.include(\"Task id is invalid\"); ",
 									"});"
 								],
 								"type": "text/javascript"
