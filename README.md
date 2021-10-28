@@ -9,4 +9,4 @@ Pre-requisites
 Newman
 IDE (Visual Studio)
 
-Command: npm run api-tests
+Command: npm run api-tests 
