@@ -1,0 +1,13 @@
+name: Integration
+
+on: [pull_request]
+
+jobs:
+  API_TESTING:
+    runs-on: ubuntu-latest
+    steps:
+      -uses: action/checkout
+      -uses: actions/setup-node
+        with:
+          node-version: '14.x'
+      -run: npm run api-tests
